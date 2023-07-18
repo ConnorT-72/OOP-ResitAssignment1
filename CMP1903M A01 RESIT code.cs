@@ -47,7 +47,7 @@ public class testScore
 		{
 			Console.WriteLine("Oh dear - you have put in a wrong test score");
 
-			//repeat the code after wrong test score input
+			//repeat the code after wrong test score input, anything below 0 or above 100 counts as wrong
 			Main();
 		}
 	}
