@@ -5,17 +5,18 @@ public class testScore
 	
 	public static void Main()
 	{
-	
+		//your name
 		string str1;
+		//your score
 		double dbl1;
 
 		Console.WriteLine("Welcome to the Acme Student Test Score comenter");
 
-		Console.WriteLine("Enter your name");
+		Console.WriteLine("Enter your name: ");
 		//reads what youve inputed and stores it into the string
 		str1 = Console.ReadLine();
 
-		Console.WriteLine("Enter the test score");
+		Console.WriteLine("Enter the test score: ");
 		//reads the score and stores it into the double after converting
 		dbl1 = Double.Parse(Console.ReadLine());
 		
@@ -25,7 +26,7 @@ public class testScore
 
 		if(dbl1 < 40)
 		{
-			if (dbl1 > 0)
+			if (dbl1 >= 0)
 			{ 
 				Console.WriteLine("This a FAIL score");
 				//repeat code
@@ -51,5 +52,36 @@ public class testScore
 			Main();
 		}
 	}
+
+
 	
+}
+
+
+
+
+
+
+//random test
+public class allTheScores
+{
+
+	public static void Main2()
+    {
+
+		double dbl2;
+		string str2;
+
+		Console.WriteLine("Please input your name: ");
+		str2 = Console.ReadLine();
+
+		Console.WriteLine("Please input your text score");
+		dbl2 = Double.Parse(Console.ReadLine());
+
+		Console.WriteLine("Hello {0}", str2);
+		Console.WriteLine("Your test score is {0}", dbl2);
+	}
+
+
+		
 }

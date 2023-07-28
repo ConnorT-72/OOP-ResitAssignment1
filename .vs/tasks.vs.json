@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-OOP-ResitAssignment1",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-CMP1903M A01 RESIT code",
+      "appliesTo": "CMP1903M A01 RESIT code.cs",
+      "type": "launch"
+    }
+  ]
+}
